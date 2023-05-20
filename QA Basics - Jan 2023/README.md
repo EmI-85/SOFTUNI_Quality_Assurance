@@ -1,5 +1,6 @@
 # SOFTUNI_Quality_Assurance
 https://softuni.bg/qa/curriculum
+
 What is Software Quality Assurance (QA)? 
 What is Software Testing?
 Software Defects (Bugs)
