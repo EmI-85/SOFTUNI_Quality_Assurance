@@ -1,0 +1,6 @@
+Terminal: 
+clone repo https://github.com/SUContent/Git-Clone.git
+cd \Git-Clone
+node exam-console-app.js
+
+Total Area: 135.539816
