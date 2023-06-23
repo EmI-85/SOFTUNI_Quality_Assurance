@@ -1,0 +1,1 @@
+Select distinct `town` from `addresses` where `isCapital` = true;
