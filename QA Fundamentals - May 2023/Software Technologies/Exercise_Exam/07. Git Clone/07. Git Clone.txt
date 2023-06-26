@@ -1,0 +1,1 @@
+The distance between point1 and point2 is: 5
