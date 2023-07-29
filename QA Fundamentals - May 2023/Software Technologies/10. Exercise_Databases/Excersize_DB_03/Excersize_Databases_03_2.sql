@@ -1,1 +1,0 @@
-SELECT * FROM users WHERE last_name = "Petrov";

@@ -1,0 +1,6 @@
+Czech translation: Francouzská republika
+German translation: Französische Republik
+Italian translation: Repubblica francese
+Polish translation: Republika Francuska
+Russian translation: Французская Республика
+Swedish translation: Republiken Frankrike

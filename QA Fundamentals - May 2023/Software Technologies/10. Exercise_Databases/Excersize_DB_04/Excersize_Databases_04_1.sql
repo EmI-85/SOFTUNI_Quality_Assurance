@@ -1,1 +1,0 @@
-SELECT * FROM exercise_database.employees WHERE department LIKE 'IT';

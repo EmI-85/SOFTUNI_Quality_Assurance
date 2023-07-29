@@ -1,1 +1,0 @@
-SELECT DISTINCT town FROM addresses WHERE isCapital IS TRUE
