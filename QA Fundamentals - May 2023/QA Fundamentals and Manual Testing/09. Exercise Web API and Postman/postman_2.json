@@ -1,0 +1,273 @@
+{
+	"info": {
+		"_postman_id": "b31d6919-2d64-47b7-8345-3d24f6102beb",
+		"name": "The \"Task Board\" System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28681064"
+	},
+	"item": [
+		{
+			"name": "Get all boards",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://taskboardjsv02-1--emi-85.repl.co/api/boards",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--emi-85",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"boards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get the tasks from board named \"Done\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://taskboardjsv02-1--emi-85.repl.co/api/tasks/board/done",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--emi-85",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"board",
+						"done"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find tasks by keyword \"home\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://taskboardjsv02-1--emi-85.repl.co/api/tasks/search/home",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--emi-85",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"search",
+						"home"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find tasks by keyword \"missing{randnum}\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://taskboardjsv02-1--emi-85.repl.co/api/tasks/search/\"missing{randnum}\"",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--emi-85",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"search",
+						"\"missing{randnum}\""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://taskboardjsv02-1--emi-85.repl.co/api/tasks",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--emi-85",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a new task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Add Tests\",\r\n    \"description\": \"API + UI tests\",\r\n    \"board\": \"Open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--emi-85.repl.co/api/tasks",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--emi-85",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a new task Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Add Tests2\",\r\n    \"description\": \"API + UI tests\",\r\n    \"board\": \"Open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--emi-85.repl.co/api/tasks",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--emi-85",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a new task Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Add Tests3\",\r\n    \"description\": \"API + UI tests\",\r\n    \"board\": \"Open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--emi-85.repl.co/api/tasks",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--emi-85",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete existing task",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Add Tests\",\r\n    \"description\": \"API + UI tests\",\r\n    \"board\": \"Open\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--emi-85.repl.co/api/tasks/9",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--emi-85",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit created task",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"changed title\",\r\n    \"board\": \"Done\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://taskboardjsv02-1--emi-85.repl.co/api/tasks/8",
+					"protocol": "https",
+					"host": [
+						"taskboardjsv02-1--emi-85",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"tasks",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
