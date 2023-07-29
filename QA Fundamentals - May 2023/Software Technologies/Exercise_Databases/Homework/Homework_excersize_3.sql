@@ -1,1 +1,0 @@
-SELECT * FROM address_database.addresses WHERE continent LIKE 'Europe' AND isCapital IS FALSE;
