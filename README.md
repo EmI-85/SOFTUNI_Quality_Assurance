@@ -1,5 +1,6 @@
 Curriculum
 QA Engineering
+
 SoftUni's QA engineering professional program aims to build all the fundamental knowledge and practical skills needed for the QA engineer profession, following current IT trends and learning top practices from manual and automated software testing. The curriculum for QA engineers includes training modules, through which we lay the foundations with "Manual QA" and continue with "QA Automation", where we learn programming and software technologies and techniques, practices and tools for automated testing. Each training module contains courses with a strong focus on practice, and at the end of each training, students pass a practical exam, demonstrating the acquired skills.
 
 Manual QA
