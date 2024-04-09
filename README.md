@@ -5,7 +5,7 @@ SoftUni's QA engineering professional program aims to build all the fundamental 
 
 
 Manual QA
-
+---------
 Training modules for mastering the profession "manual software testing specialist (manual QA)"
 
 QA Basics
@@ -18,7 +18,7 @@ In the QA Fundamentals module, students build on what they learned from QA Basic
 
 
 Automation QA
-
+-------------
 Training modules for mastering the profession "engineer in automated software testing (QA automation)"
 
 Programming for QA
