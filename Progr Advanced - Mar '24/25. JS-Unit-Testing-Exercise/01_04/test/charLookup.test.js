@@ -29,4 +29,7 @@ describe('Character Lookup', () => {
         expect(lookupChar('Foo', [1])).to.be.undefined;
         expect(lookupChar('Foo', {index: 1})).to.be.undefined;
     })
+    it('Should return undefined when decimal index value is given within range', () => {
+        expect(lookupChar('Bazbar', 3.5)).to.be.undefined;
+    })
 });
